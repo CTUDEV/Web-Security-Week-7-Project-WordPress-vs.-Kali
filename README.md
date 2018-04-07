@@ -13,7 +13,7 @@ Time spent: 4 hours spent in total
     - Tested in version: 4.2
     - Fixed in version: 4.2.3 
   - [ ] GIF Walkthrough: <img src="https://github.com/CTUDEV/Web-Security-Week-7-Project-WordPress-vs.-Kali/blob/master/EXP1.%20XSS.gif" width="800">
-  - [ ] Steps to recreate: Create a new post and insert the code from the link as the body of the post.
+  - [ ] Steps to recreate: Create a new post and insert the code from the link as the body of the post. Publish the post.
   - [Link 1](https://klikki.fi/adv/wordpress3.html)
 
 1. WordPress 3.6.0-4.7.2 - Authenticated Cross-Site Scripting (XSS) via Media File Metadata
@@ -34,7 +34,7 @@ Time spent: 4 hours spent in total
     - Fixed in version:4.2.13 
   - [ ] GIF Walkthrough:<img src="https://github.com/CTUDEV/Web-Security-Week-7-Project-WordPress-vs.-Kali/blob/master/EXP3.%20XSS.%20YouTube.gif" width="800">
   - [ ] Steps to recreate:
-	Create a new post where we insert the following:[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed] as the body of the post. 
+	Create a new post where we insert the following:[embed src='https://youtube.com/embed/12345\x3csvg onload=alert(1)\x3e'][/embed] as the body of the post. Publish the post. 
   - [Link 1](https://blog.sucuri.net/2017/03/stored-xss-in-wordpress-core.html)
 
 
